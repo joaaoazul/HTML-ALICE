@@ -1,0 +1,84 @@
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 16px;
+    background-color: pink;
+    font-family: Amatic SC, sans serif;
+  }
+
+  h1 {
+    font-size: 40px;
+    
+  }
+
+  #masterContainer {
+text-align: center;
+position: fixed;
+
+top: 15px;
+background-color: white;
+border-radius: 25px;
+box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+margin: 50px;
+  }
+
+  #container1 {
+    left: 20px;
+    top: 120px;
+  }
+
+  #container2 {
+    left: 20px;
+    top: 190px;
+  }
+}
+
+/* CSS code for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS code for tablets here */
+}
+
+/* CSS code for desktops */
+@media only screen and (min-width: 1024px) {
+
+  html {
+    font-family: Amatic SC, sans serif;
+}
+
+h1 {
+    font-size: 60px;
+
+}
+
+
+#container1{
+    position: fixed;
+    left: 370px;
+    top: 120px;
+    
+}
+
+#container2 {
+    position: fixed;
+    left: 370px;
+top: 190px;
+}
+
+#masterContainer {
+ position: fixed;
+    left: 330px;
+    top: 100px;
+    padding: 150px 290px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+}
+
+body {
+    background-color: pink;
+}
+
+}
