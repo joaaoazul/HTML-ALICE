@@ -19,7 +19,7 @@ border-radius: 25px;
 box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 -webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 -moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
-margin: 50px;
+margin: 40px;
   }
   
   #container1 {
@@ -35,9 +35,10 @@ margin: 50px;
   #buttonContainer {
   
       position: absolute;
+      top: 37%;
       left: 50%; /* move the container to the middle of the parent container */
       transform: translateX(-50%); /* adjust the position to center the container */
-      margin-top: 20px;
+      margin-top: 10px;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -169,7 +170,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 150px 0px 120px;
+  padding: 100px 0px 100px;
   background-color: white;
   border-radius: 25px;
   width: 40%;
@@ -178,24 +179,7 @@ body {
 -moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 }
 
-#eContainer {
-  
-  position: absolute;
-  left: 50%; /* move the container to the middle of the parent container */
-  transform: translateX(-50%); /* adjust the position to center the container */
-  top: 10%;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 60px 0px 60px;
-  background-color: #fe7f9c;
-  border-radius: 25px;
-  width: 50%;
-  box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
--webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
--moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
-}
+
 
 .btn{
   box-shadow:inset 0px 1px 0px 0px #edb9dd;
