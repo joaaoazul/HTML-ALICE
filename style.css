@@ -35,10 +35,10 @@ margin: 40px;
   #buttonContainer {
   
       position: absolute;
-      top: 100%;
+      top: 170%;
       left: 50%; /* move the container to the middle of the parent container */
       transform: translateX(-50%); /* adjust the position to center the container */
-      margin-top: 20px;
+      margin-top: 10px;
       display: flex;
       align-items: center;
       flex-direction: column;
