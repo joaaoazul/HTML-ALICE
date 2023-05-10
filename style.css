@@ -37,7 +37,8 @@ margin: 40px;
       position: absolute;
       left: 50%; /* move the container to the middle of the parent container */
       transform: translateX(-50%); /* adjust the position to center the container */
-      margin-top: 10px;
+      margin-top: 20px;
+      bottom: 280px;
       display: flex;
       align-items: center;
       flex-direction: column;
