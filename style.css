@@ -35,7 +35,7 @@ margin: 40px;
   #buttonContainer {
   
       position: absolute;
-      top: 50%;
+      top: 100%;
       left: 50%; /* move the container to the middle of the parent container */
       transform: translateX(-50%); /* adjust the position to center the container */
       margin-top: 20px;
