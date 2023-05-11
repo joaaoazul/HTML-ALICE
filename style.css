@@ -175,6 +175,8 @@ body {
   box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 -webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 -moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+
+
 }
 
 
@@ -219,11 +221,15 @@ body {
 -webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 -moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 top: -380px;
-opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
 
+  transition: opacity 1s ease-in-out;
+}
 
 .hidden {
   display: none;
+}
+
+
+.ticket-visible {
+  opacity: 1;
 }
