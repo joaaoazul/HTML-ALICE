@@ -11,39 +11,96 @@
   }
 
   #masterContainer {
-text-align: center;
-position: fixed;
-
-top: 15px;
-background-color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
 border-radius: 25px;
 box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 -webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 -moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
-margin: 50px;
+margin: 40px;
   }
-
+  
   #container1 {
-    left: 20px;
-    top: 120px;
+    left: 0;
+    top: 0;
   }
-
+  
   #container2 {
-    left: 20px;
-    top: 190px;
+    left: 0;
+    top: 0;
   }
+  
+  #buttonContainer {
+  
+      position: absolute;
+      left: 50%; /* move the container to the middle of the parent container */
+      transform: translateX(-50%); /* adjust the position to center the container */
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 120px 0px 120px;
+      background-color: white;
+      border-radius: 25px;
+      width: 70%;
+      box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+  -webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+  -moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+    }
+    
 
-  #buttonContainer{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btn{
+  box-shadow:inset 0px 1px 0px 0px #edb9dd;
+	background:linear-gradient(to bottom, #f2c2db 5%, #f5b1d5 100%);
+	background-color:#f2c2db;
+	border-radius:6px;
+	border:1px solid #ba58a0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+}
+
+.btn:hover{
+  background:linear-gradient(to bottom, #f5b1d5 5%, #f2c2db 100%);
+	background-color:#f5b1d5;
+}
+
+.btn:active{
+  position:relative;
+	top:1px;
+}
+
+#ticket1{
+
+  display: flex;
+    text-align: center;
     flex-direction: column;
-  }
+  padding: 30px 60px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
 
-  #btn2 {
-    margin-top: 10px;
-  }
+ /* transition: opacity 1s ease-in-out;*/
+}
+/*
+.hidden {
+  display: none;
+}
+
+
+.ticket-visible {
+  opacity: 1;
+}
+*/
 }
 
 
@@ -113,7 +170,7 @@ top: 190px;
 #masterContainer {
  position: fixed;
     left: 330px;
-    top: 100px;
+    top: 60px;
     padding: 150px 290px;
     background-color: white;
     border-radius: 25px;
@@ -126,5 +183,78 @@ body {
     background-color: pink;
 }
 
+#buttonContainer {
+  
+  position: absolute;
+  left: 40%; /* move the container to the middle of the parent container */
+  transform: translateX(-50%); /* adjust the position to center the container */
+  top: 53%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0px 100px;
+  background-color: white;
+  border-radius: 25px;
+  width: 40%;
+  box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+
+
 }
 
+
+
+.btn{
+  box-shadow:inset 0px 1px 0px 0px #edb9dd;
+	background:linear-gradient(to bottom, #f2c2db 5%, #f5b1d5 100%);
+	background-color:#f2c2db;
+	border-radius:6px;
+	border:1px solid #ba58a0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:24px 48px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+}
+
+.btn:hover{
+  background:linear-gradient(to bottom, #f5b1d5 5%, #f2c2db 100%);
+	background-color:#f5b1d5;
+}
+
+.btn:active{
+  position:relative;
+	top:1px;
+}
+
+}
+
+#ticket1{
+
+  padding: 30px 60px;
+  background-color: white;
+  position: absolute;
+  left: 850px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-webkit-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+-moz-box-shadow: 10px 10px 19px -11px rgba(0,0,0,0.79);
+top: -380px;
+
+  transition: opacity 1s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.ticket-visible {
+  opacity: 1;
+}
